@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elen Cardoso</title>
+
+    
+    <!-- Fonts here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <section class="top">
+    <div class="rectangle-1"></div>
+    <div class="title">
+        <div class="elen">Elen</div>
+        <div class="cardoso">Cardoso</div>
+    </div>
+    <div class="subtitles">
+<div class="subtitle-1">UI/UX Designer</div>
+<div class="subtitle-2">Front End Developer</div>
+<div class="button"><button type="button" class="btn btn-light btn-lg" onclick="openPopup()">About Me</button>
+    <button type="button" class="btn btn-light btn-lg" id="figma-btn"><a href="https://www.figma.com/@elencardoso" target="_blank" rel="noopener noreferrer">My Figma</a></button>
+    <button type="button" class="btn btn-light btn-lg" id="github-btn"><a href="https://github.com/ElenCardoso" target="_blank" rel="noopener noreferrer">My Github</a></button></div>
+</div>
+
+
+  <div class="rectangle-2"></div>  
+   <div class="profile-photo"></div> 
+        
+    
+ </section>   
+
+ <!-- <div class="container"> -->
+    <div class="popup" id="popup">
+        <p>Hi there! I’m Elen. I started my journey with web developing/designing at the young age of 13 on MySpace. It was there that I offered customized layouts to all the emo and goth kids. That’s where I learned that I like making things look awesome. When I was 16, I moved back to my birthtown of São Paulo. I had grown up in the US since I was 4. I speak both English and Portuguese fluently and I am learning French. 
+            I like creating designs that use color and space in creative ways and bring practicality in their experience. I like thinking outside of the box and looking for solutions that maybe someone else never thought about. 
+            <br><br>
+            I think that my personal touch to everything that I do is making sure all my creations are intuitive.  I understand that my duty as a designer is to create powerful communication and maintain a professional attitude.<br>
+            <br><br>
+            My previous work experience was as Project Manager, Support Level 2 and some programming for a edu-tech company. I worked there for almost 2 years. 
+            <br><br>
+            Before that, I had worked as an ESL teacher, where I learned many, many special skills as a leader, teammate and as a human. I worked in classrooms for over 10 years. 
+            <br><br>
+            I am graduating in Systems Analysis and Development in early 2023. <br>
+            I am a self learner, so all of my skills I learned collaborating with other designers and developers and I have many Udemy Certificates as well. </p>
+        <div class="popup-buttons"><button type="button" class="btn btn-light btn-lg" id="close-button" onclick="closePopup()">Close</button>
+        <a class="btn btn-light btn-lg" href="EN.png" download id="download-button" role="button">Download Full CV
+        </a></div>
+ <!-- </div> --></div>
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+ <script>
+    let popup = document.getElementById("popup");
+
+function openPopup(){
+    popup.classList.add("open-popup");
+}
+
+function closePopup(){
+    popup.classList.remove("open-popup");
+}
+ </script>
+
+
+</body>
+</html>

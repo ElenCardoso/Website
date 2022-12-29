@@ -1,0 +1,234 @@
+body{
+    background-color: white;
+    max-height: 100vh;
+    max-width: 100vh;
+}
+
+.top{
+    position: relative;
+    max-width: 100vh;
+    max-height: 100vh;
+    
+    background: #FFFFFF;
+}
+.rectangle-1{
+ position: absolute;
+ width: 689px;
+ height: 100vh;
+left: 0px;
+top: 0px;
+background-color: #fbc40e;   
+}
+
+/* Title */
+
+/* .title{
+ position: absolute;
+width: 626px;
+height: 398px;
+left: 61px;
+top: 340px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 120px;
+line-height: 160px;
+
+color: #FFFFFF;
+   
+} */
+
+
+/* Elen */
+.elen{
+position: absolute;
+max-width: 50vh;
+/* height: 50vh; */
+left: 61px;
+top: 50px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 120px;
+line-height: 160px;
+
+color: #FFFFFF;
+}
+
+/* Cardoso */
+.cardoso{ 
+position: absolute;
+width: 464px;
+height: 160px;
+left: 186px;
+top: 134px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 120px;
+line-height: 160px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+/* Auto layout */
+.subtitles{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 3px;
+position: absolute;
+width: 545px;
+height: 159px;
+left: 110px;
+top: 270px;
+}
+
+/* UI/UX Designer */
+.subtitle-1{
+/* width: 400px; */
+height: 78px;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 62px;
+line-height: 78px;
+/* identical to box height */
+color: #343f71;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+    /* Front End Developer */
+.subtitle-2{
+width: 545px;
+height: 78px;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 62px;
+line-height: 78px;
+/* identical to box height */
+white-space: nowrap;
+color: #343f71;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/* Rectangle 2 */
+
+.rectangle-2{
+ position: absolute;
+ width: 486px;
+ height: 424px;
+ left: 689px;
+ top: 17px;
+background: #434242;
+border-radius: 8px;   
+}
+
+.profile-photo{
+    
+position: absolute;
+width: 600px;
+height: 646px;
+left: 689px;
+top: -68px;
+background-repeat: no-repeat;
+background-image: url(photo-cropped.png);
+}
+
+/* buttons */
+
+.button{
+position: absolute;
+width: 143px;
+height: 40px;
+left: 3px;
+top: 168px;
+display: grid;
+grid-template-columns: 150px 150px 150px;
+grid-gap: 35px;
+margin-top: 10px;
+font-family: 'Source Sans Pro';
+cursor: pointer;
+}
+
+a{
+    text-decoration: none !important;
+    font-family: 'Source Sans Pro' !important;
+    color: black !important;
+}
+
+p{
+    text-align: center;
+    max-width: 555px;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    grid-column-start: span 2;
+    margin: 20px;
+    
+}
+
+.popup-buttons{
+    grid-column-start: span 2;
+    display: grid;
+}
+
+.popup{
+    width: 100%;
+    height: 90%;
+    transform: translate(689px, -835px) scale(0.1);
+    top: 0%;
+    visibility: hidden;
+    position: absolute;
+    transition: transform 0.4s, right 0.4s;
+    overflow-x: hidden;
+    background-color: aliceblue;
+    display: grid;
+}
+
+.open-popup{
+    visibility: visible;  
+    transform: translate(689px, -835px) scale(1);
+    top: 127%;
+    overflow-x: hidden;
+    max-width: fit-content;
+}
+
+
+/* .download-btn{
+    width: 30%;
+    background-color: #434242;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro';
+    cursor: pointer;
+} */
+/* .popup img{
+    width: 80%;
+    contain-intrinsic-width: none;
+} */
+
+#close-button{
+  /* width: 40%;  */
+  background-color: #343f71; 
+  color: #FFFFFF !important;
+  font-family: 'Source Sans Pro';
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 600;
+}
+#download-button{
+    /* width: 40%;  */
+    background-color: #343f71; 
+    color: #FFFFFF !important;
+    font-family: 'Source Sans Pro';
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+  }
