@@ -96,7 +96,7 @@ font-weight: 600;
 font-size: 62px;
 line-height: 78px;
 /* identical to box height */
-color: #343f71;
+color: #000000;
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -113,7 +113,7 @@ font-size: 62px;
 line-height: 78px;
 /* identical to box height */
 white-space: nowrap;
-color: #343f71;
+color: #000000;
 /* Inside auto layout */
 flex: none;
 order: 1;
@@ -183,23 +183,35 @@ p{
 .popup{
     width: 100%;
     height: 90%;
-    transform: translate(689px, -713px) scale(0.1);
+    transform: translate(659px, -713px) scale(0.1);
     top: 0%;
     visibility: hidden;
     position: absolute;
     transition: transform 0.4s, right 0.4s;
     overflow-x: hidden;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     display: grid;
 }
 
 .open-popup{
     visibility: visible;  
-    transform: translate(689px, -713px) scale(1);
+    transform: translate(659px, -713px) scale(1);
     top: 127%;
     overflow-x: hidden;
     max-width: fit-content;
 }
+    /* IF POPUP ISSUE ON GITHUB DOES NOT SOLVE TRY THE FOLLOWING*/
+
+    /* visibility: visible;
+    /* transform: translate(689px, -835px) scale(1); */
+    /* top: 127%; 
+    overflow-x: hidden;
+    max-width: fit-content;
+    transform: scale(1);
+    /* align-content: center; 
+    top: 8%;
+    left: 54%; */
+
 
 
 /* .download-btn{
