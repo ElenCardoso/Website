@@ -228,7 +228,7 @@ p{
 
 #close-button{
   /* width: 40%;  */
-  background-color: #343f71; 
+  background-color: #000000; 
   color: #FFFFFF !important;
   font-family: 'Source Sans Pro';
   cursor: pointer;
@@ -237,7 +237,7 @@ p{
 }
 #download-button{
     /* width: 40%;  */
-    background-color: #343f71; 
+    background-color: #000000; 
     color: #FFFFFF !important;
     font-family: 'Source Sans Pro';
     cursor: pointer;
